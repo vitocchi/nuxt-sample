@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/nuxt-sample/favicon.ico' }
     ]
   },
   /*
@@ -34,5 +34,11 @@ module.exports = {
         })
       }
     }
+  },
+  /*
+  ** Router configuration
+  */
+  router: {
+    base: '/nuxt-sample/'
   }
 }
